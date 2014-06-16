@@ -1787,7 +1787,8 @@ body {
 .content-posts,
 .comments-area,
 .archive-header,
-.content-pages {
+.content-pages,
+.error404 {
 	background-color: #fff;
 	box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
 	margin-bottom: 1.714285714rem !important;
@@ -1830,12 +1831,18 @@ body {
 .content-pages .entry-header {
 	margin-bottom: 0.5rem;
 }
-.archive-header .archive-title {
+.archive-header .archive-title,
+.error404 .entry-title {
 	font-size: 1.5rem;
 	text-align: center;
 }
-.archive-header .archive-meta {
+.archive-header .archive-meta,
+.error404 .entry-content {
 	margin-top: 0;
+	text-align: center;
+}
+.error404 .entry-super-title {
+	font-size: 10rem;
 	text-align: center;
 }
 
